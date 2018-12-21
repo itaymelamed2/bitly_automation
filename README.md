@@ -6,8 +6,26 @@
 3. Open command line and navigate to the repo dir
 4. Type:
 5.  >  docker compose up -d
-6. This command will build containers with Selenium Hub Server, Chrome Node with a VNC server and Jenkins.
+6. This command will build containers with **Selenium Hub Server, Chrome Node with a VNC server and Jenkins**.
 5. There are two options to tun the tests: locally or through Jenkins.
+6. In order to watch the tests live on server, please download: https://www.realvnc.com/en/connect/download/viewer/
+6.1. open the vnc viewer ,type localhost:5900 and click enter.
+![alt text](https://https://imgur.com/a/vHiIhl8.jpg)
+password is: 'secret'
+
+![alt text](https://imgur.com/a/LQbFu2m.jpg)
+
+### **Locally**
+1. Clone repo to your local host.
+2. Download python 3.7.
+3. Open command line and change directory to the cloned repo dir.
+4. Type:
+> pip install pytest
+
+5. cd to tests directory and type:
+> pytest 
+
+
 
 ### **Jenkins**
 1. Extract jenkins_data tar in you $HOME directory.
