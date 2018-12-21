@@ -12,8 +12,11 @@
 ### **Jenkins**
 1. Extract jenkins_data tar in you $HOME directory.
 2. Open a browser on your local host and navigate to "http://127.0.0.1:8080/blue/organizations/jenkins/bitly_automation/branches".
+
 3. Hover over the master branch.
 ![alt text](https://i.imgur.com/H95tInk.png)
+
+
 4. On the right, click on the "Play button":
 ![alt text](https://i.imgur.com/6yU5DwI.jpg)
 
