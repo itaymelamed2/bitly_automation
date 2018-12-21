@@ -11,14 +11,16 @@
 
 ### **Jenkins**
 1. Extract jenkins_data tar in you $HOME directory.
-2. Open a browser on your local host and navigate to "http://127.0.0.1:8080/blue/organizations/jenkins/bitly_automation/branches".
+2. On command line type:
+> docker jenkins restart (Could take up to 20 minutes)
+3. Open a browser on your local host and navigate to "http://127.0.0.1:8080/blue/organizations/jenkins/bitly_automation/branches".
 
-3. Hover over the master branch row. On the right, click on the "Play button".
+4. Hover over the master branch row. On the right, click on the "Play button".
 ![alt text](https://imgur.com/laqLcI5.jpg)
 
-4. In order to see pipline, click on the Master branch.
+5. In order to see pipline, click on the Master branch.
 
-5. In order to see test results, click to Test link in the tope menu:
+6. In order to see test results, click to Test link in the tope menu:
 ![alt text](https://imgur.com/a/TraPD16.jpg)
 
 ![alt text](https://imgur.com/JUSOoh1.jpg)
