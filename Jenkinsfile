@@ -9,6 +9,7 @@ pipeline {
             }
             steps {
                 dir('bitly_automation') {
+                    sh 'ls'
                     sh 'pip install -r requirements.txt'
                     sh 'pytest -v --junit-xml test-reports/results.xml tests/test_ui.py'
                 }
