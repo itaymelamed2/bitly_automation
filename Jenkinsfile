@@ -2,7 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Get code from repo') {
-            git 'https://github.com/itaymelamed/bitly_automation.git'
+            steps {
+                git 'https://github.com/itaymelamed/bitly_automation.git'
+            }
         }
         stage('Test') { 
             agent {
