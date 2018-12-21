@@ -23,8 +23,6 @@
 6. In order to see test results, click to Test link in the tope menu:
 ![alt text](https://imgur.com/a/TraPD16.jpg)
 
-![alt text](https://imgur.com/JUSOoh1.jpg)
-
 
 5.1 To run locally:
 5.1.1 Install python 3.7 on your local machine.
