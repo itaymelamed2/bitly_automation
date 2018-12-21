@@ -16,6 +16,14 @@
 3. Hover over the master branch row. On the right, click on the "Play button".
 ![alt text](https://imgur.com/laqLcI5.jpg)
 
+4. In order to see pipline, click on the Master branch.
+
+5. In order to see test results, click to Test link in the tope menu:
+![alt text](https://imgur.com/a/TraPD16)
+
+![alt text](https://imgur.com/JUSOoh1.jpg)
+
+
 5.1 To run locally:
 5.1.1 Install python 3.7 on your local machine.
 5.1.2 > On command line navigate to bitly_automation and run "pip install pytest"
