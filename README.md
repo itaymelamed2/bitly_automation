@@ -8,5 +8,5 @@
 5. There are two options to tun the tests: locally or through Jenkins.
 5.1 To run locally:
 5.1.1 Install python 3.7 on your local machine.
-5.1.2  > On command line navigate to bitly_automation and run "pip install pytest"
+5.1.2 > On command line navigate to bitly_automation and run "pip install pytest"
 5.1.3 > Navigte to tests folder and run "pytest --env=production --browser=chrome"
