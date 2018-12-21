@@ -5,7 +5,7 @@ pipeline {
             agent {
                 docker {
                     image 'python:3.7'
-                    args '--link hub'
+                    args '--network bitly_automation_default'
                 }
             }
             steps {
