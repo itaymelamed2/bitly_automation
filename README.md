@@ -12,8 +12,6 @@
 6.1. open the vnc viewer ,type localhost:5900 and click enter.
 password is: 'secret'
 
-![alt text](https://i.imgur.com/xBAsp0x.png){:height="50%" width="50%"}
-
 ![alt text](https://i.imgur.com/oPIfgoT.png){:height="50%" width="50%"}
 
 
