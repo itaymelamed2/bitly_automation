@@ -4,7 +4,8 @@ pipeline {
         stage('Test') { 
             agent {
                 docker {
-                    image 'python:3.7' 
+                    image 'python:3.7'
+                    args '--link hub'
                 }
             }
             steps {
