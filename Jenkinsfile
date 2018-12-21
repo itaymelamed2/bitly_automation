@@ -1,16 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Get code from repo') {
-            steps {
-                git 'https://github.com/itaymelamed/bitly_automation.git'
-            }
-        }
         stage('Test') { 
             agent {
                 docker {
                     image 'python:3.7'
-                    reuseNode true
                 }
             }
             steps {
