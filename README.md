@@ -10,7 +10,7 @@
 5. There are two options to tun the tests: locally or through Jenkins.
 6. In order to watch the tests live on server, please download: https://www.realvnc.com/en/connect/download/viewer/
 6.1. open the vnc viewer ,type localhost:5900 and click enter.
-![alt text](https://https://imgur.com/a/vHiIhl8.jpg)
+![alt text](https://imgur.com/a/vHiIhl8.jpg)
 password is: 'secret'
 
 ![alt text](https://imgur.com/a/LQbFu2m.jpg)
