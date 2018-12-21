@@ -9,11 +9,11 @@ pipeline {
             }
             steps {
                 sh 'pip install -r requirements.txt'
-                sh 'python -m pytest -v --junit-xml test-reports/results.xml tests/test_ui.py'
+                sh 'cd tests && pytest -v --junit-xml test-reports/results.xml'
             }
             post {
                 always {
-                    junit 'test-reports/results.xml' 
+                    junit 'tests/test-reports/results.xml' 
                 }
             }
         }
