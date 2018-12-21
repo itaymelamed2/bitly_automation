@@ -21,7 +21,9 @@
 5. In order to see pipline, click on the Master branch.
 
 6. In order to see test results, click to Test link in the tope menu:
-![alt text](https://imgur.com/a/TraPD16.jpg)
+![alt text](https://imgur.com/TraPD16.jpg)
+
+![alt text](https://imgur.com/JUSOoh1.jpg)
 
 
 5.1 To run locally:
