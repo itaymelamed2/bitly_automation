@@ -12,9 +12,9 @@
 6.1. open the vnc viewer ,type localhost:5900 and click enter.
 password is: 'secret'
 
-![alt text](https://i.imgur.com/xBAsp0x.png)
+![alt text](https://i.imgur.com/xBAsp0x.png){:height="50%" width="50%"}
 
-![alt text](https://i.imgur.com/oPIfgoT.png)
+![alt text](https://i.imgur.com/oPIfgoT.png){:height="50%" width="50%"}
 
 
 ### **Locally**
@@ -36,14 +36,14 @@ password is: 'secret'
 3. Open a browser on your local host and navigate to "http://127.0.0.1:8080/blue/organizations/jenkins/bitly_automation/branches".
 
 4. Hover over the master branch row. On the right, click on the "Play button".
-![alt text](https://imgur.com/laqLcI5.jpg)
+![alt text](https://imgur.com/laqLcI5.jpg){:height="50%" width="50%"}
 
 5. In order to see pipline, click on the Master branch.
 
 6. In order to see test results, click to Test link in the tope menu:
-![alt text](https://imgur.com/lgwOwgs.jpg)
+![alt text](https://imgur.com/lgwOwgs.jpg){:height="50%" width="50%"}
 
-![alt text](https://imgur.com/JUSOoh1.jpg)
+![alt text](https://imgur.com/JUSOoh1.jpg){:height="50%" width="50%"}
 
 
 5.1 To run locally:
