@@ -13,7 +13,7 @@
 ![alt text](https://i.imgur.com/oPIfgoT.png)
 password is: 'secret'
 
-![alt text](https://imgur.com/a/LQbFu2m.png)
+![alt text](https://imgur.com/a/vHiIhl8.jpg)
 
 ### **Locally**
 1. Clone repo to your local host.
