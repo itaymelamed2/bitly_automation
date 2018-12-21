@@ -18,7 +18,7 @@ password is: 'secret'
 
 ### **Locally**
 In order to avoid operating system and python interpator versions problems, I've created a docker image based on python 3.7 with the selenium depandencies. To run the tests just typd in the command line:
-> docker run docker run --network bitly_automation_default -e "ENV=production" -e "BROWSER=chrome" imelamed/pytest:3.7, you can see the tests running live with the vnc viewr.
+> docker run --network bitly_automation_default -e "ENV=production" -e "BROWSER=chrome" imelamed/pytest:3.7, you can see the tests running live with the vnc viewr.
 
 
 ### **Jenkins**
