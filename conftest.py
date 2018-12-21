@@ -57,7 +57,7 @@ def desired_capabilities(browser_name):
 
 
 @pytest.fixture
-def browser(browser_name, config, desired_capabilities, chrome_options):
+def browser(browser_name, config, desired_capabilities):
     """
     :param browser_name: The name of the browser to execute tests
     :param config: system configurations object
