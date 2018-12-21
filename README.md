@@ -1,1 +1,3 @@
 # bitly_automation
+
+Instructions:
