@@ -8,6 +8,7 @@ pipeline {
                 }
             }
             steps {
+                sh 'ls'
                 dir('bitly_automation') {
                     sh 'ls'
                     sh 'pip install -r requirements.txt'
