@@ -9,22 +9,16 @@
 6. This command will build containers with **Selenium Hub Server, Chrome Node with a VNC server and Jenkins**.
 5. There are two options to tun the tests: locally or through Jenkins.
 6. In order to watch the tests live on server, please download: https://www.realvnc.com/en/connect/download/viewer/
-6.1. open the vnc viewer ,type localhost:5900 and click enter.
+6.1. open the vnc viewer ,type localhost:5900 on the top navigate bar and click enter.
 password is: 'secret'
 
+**Live tests on selenium chrome container***
 ![alt text](https://i.imgur.com/oPIfgoT.png)
 
 
 ### **Locally**
-1. Clone repo to your local host.
-2. Download python 3.7.
-3. Open command line and change directory to the cloned repo dir.
-4. Type:
-> pip install pytest
-
-5. cd to tests directory and type:
-> pytest 
-
+In order to avoid operating system and python interpator versions problems, I've created a docker image based on python 3.7 with the selenium depandencies. To run the tests just typd in the command line:
+> docker run docker run --network bitly_automation_default -e "ENV=production" -e "BROWSER=chrome" imelamed/pytest:3.7, you can see the tests running live with the vnc viewr.
 
 
 ### **Jenkins**
@@ -42,9 +36,3 @@ password is: 'secret'
 ![alt text](https://imgur.com/lgwOwgs.jpg)
 
 ![alt text](https://imgur.com/JUSOoh1.jpg)
-
-
-5.1 To run locally:
-5.1.1 Install python 3.7 on your local machine.
-5.1.2 > On command line navigate to bitly_automation and run "pip install pytest"
-5.1.3 > Navigte to tests folder and run "pytest --env=production --browser=chrome"
