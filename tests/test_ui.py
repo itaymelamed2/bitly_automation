@@ -23,6 +23,8 @@ def test_verify_shorten_link_expends_to_original_url(browser, test_url, config):
     home_page.set_text_in_textbox(test_url)
     home_page.click_on_submit_btn()
     shorted_link = home_page.get_short_link()
+
+    # navigating to the shorted link
     browser.get(shorted_link)
     cur_url = browser.current_url
 

@@ -8,7 +8,7 @@ class Config:
 
         self.url = {
             "qa": f"https://qa.{base_url}",
-            "production": "https://{base_url}"
+            "production": f"https://{base_url}"
         }[env]
 
         self.hub_endpoint = "http://127.0.0.1:4444/wd/hub"

@@ -12,7 +12,7 @@ class HomePage(PageObject):
         """
         :param text: the url to set in the input textbox
         """
-        self._text_box = text
+        self._text_box.send_keys(text)
         time.sleep(2)
 
     def click_on_submit_btn(self):
