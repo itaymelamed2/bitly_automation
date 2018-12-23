@@ -64,7 +64,8 @@ def browser(browser_name, config, desired_capabilities):
     :param desired_capabilities: desired capabilities object to create instance of remote driver
     :return: an instance of a remote driver object
     """
-    driver = webdriver.Remote(command_executor="http://hub:4444/wd/hub", desired_capabilities=desired_capabilities)
+    driver = webdriver.Remote(command_executor=f"http://hub:{config.hub_port}/wd/hub",
+                              desired_capabilities=desired_capabilities)
     driver.implicitly_wait = config.time_out
     driver.maximize_window()
     yield driver

@@ -24,9 +24,10 @@ In order to avoid operating system and python interpator versions problems, I've
 
 
 ### **Jenkins**
-1. Extract jenkins_data tar in you $HOME directory.
+1. Extract jenkins_data.tar in your $HOME directory:
+> tar xopf jenkins_data.tar
 2. On command line type:
-> docker jenkins restart (Could take up to 20 minutes)
+> docker jenkins restart (Could take up to 5 minutes)
 3. Open a browser on your local host and navigate to "http://127.0.0.1:8080/blue/organizations/jenkins/bitly_automation/branches".
 
 4. Hover over the master branch row. On the right, click on the "Play button".

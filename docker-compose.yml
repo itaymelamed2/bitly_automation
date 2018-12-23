@@ -18,7 +18,7 @@ services:
 
   jenkins:
     container_name: jenkins
-    image: imelamed/jenkins
+    image: jenkinsci/blueocean
     ports:
     - 8080:8080
     user: root
